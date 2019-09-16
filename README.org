@@ -38,7 +38,7 @@
 
 ** Results
 
-   The following table is simply an "existence" table, we are not
+   The following table is simply an "existence" table, I'm not
    exhaustive, but rather would like to show which countries have been
    studied using these methods *at least once*.
 
@@ -77,14 +77,14 @@
 
 1. Sometimes, there may be little information about a dataset in a
    given country, but then it has been studied further in some other
-   paper. We have recorded the page and edition of NetMob with the
+   paper. I have recorded the page and edition of NetMob with the
    most information.
 2. There might also be some points where I've missed a piece of
    information, or even a better dataset from the same region. This
    should not impact strongly (or logically negatively) on the fact
    that there *exists* a dataset for that region.
 3. This is of course, and by necessity, quick and dirty. Anyone can
-   ask me for pull requests (), it'd be fantastic to have a rather
+   ask me for pull requests, it'd be fantastic to have a rather
    complete list of datasets that have been published. I might come
    back to this running a more exhaustive search in the Netmob pages,
    or I might not, but one thing that could be done is search for all
