@@ -1,0 +1,101 @@
+* Countries with (C/X)DR studies
+
+** Introduction
+
+   People have been asking me why CDR investigations are only carried
+   out in "third world" countries like Chile ([[https://en.wikipedia.org/wiki/Economy_of_Chile][??!!]]).  So, after asking
+   [[https://twitter.com/leoferres/status/1173009065494110208][this twitter question]], I've taken the Netmob 2010, 2011, 2013, 2015
+   and 2017 booklets of abstracts that can be found [[http://netmob.org/][here]] and ran the
+   following code on them:
+
+** Processing
+   #+begin_src shell
+   #!/bin/bash
+   echoerr() { echo "$@" 1>&2; }
+   while read line; do
+   echoerr $line
+   echo $line
+   pdfgrep --color=always --cache -n -i "$line" netmob_abstracts_*.pdf
+   done < listofcountries.txt
+   #+end_src
+
+   I only worked with the oral presentation booklets (not posters or
+   the D4D challenge). This produced
+
+   #+begin_src shell :results raw
+   wc -l bib/countriesfound.txt
+   #+end_src
+
+   #+RESULTS:
+   66135 bib/countriesfound.txt
+
+   using a =listofcountries.txt= file that I found on the
+   internet. Many of these lines are false positives though, either
+   because of mismatches "Mali" -> "Nor*mali*zed" or other similar
+   effects. I then spent some time checking out the files by hand, and
+   recording the ones that were effectively a mention of a specific
+   country's CDR dataset.
+
+** Results
+
+   The following table is simply an "existence" table, we are not
+   exhaustive, but rather would like to show which countries have been
+   studied using these methods *at least once*.
+
+| Continent         | Country       | Page | Subscribers | Length (mo) | Netmob |
+|-------------------+---------------+------+-------------+-------------+--------|
+| Europe            | Andorra       |  105 |     1264292 |           1 |   2017 |
+| America (South)   | Argentina     |  104 |   40000000? |           5 |   2013 |
+| Europe            | Austria       |   55 |           ? |           ? |   2013 |
+| Europe            | Belgium       |   55 |           ? |           6 |   2011 |
+| America (South)   | Brazil        |   46 |           ? |         0.6 |   2013 |
+| America (South)   | Chile         |  126 |      142988 |         0.5 |   2017 |
+| Asia (East)       | China         |   85 |           ? |           6 |   2017 |
+| Europe            | Estonia       |   87 |       48871 |         0.3 |   2015 |
+| Europe            | France        |   72 |           ? |           6 |   2013 |
+| Europe            | Portugal      |   72 |           ? |           6 |   2013 |
+| Europe            | Spain         |   72 |           ? |           6 |   2013 |
+| America (Central) | Haiti         |   74 |     2900000 |           2 |   2015 |
+| Asia (South)      | India         |  109 |     4000000 |           3 |   2015 |
+| Europe            | Ireland       |   57 |      500000 |           ? |   2011 |
+| Europe            | Italy         |   56 |           ? |          10 |   2010 |
+| America (Central) | Mexico        |   42 |    1000000s |           6 |   2015 |
+| Africa            | Namibia       |  117 |     4500000 |          50 |   2017 |
+| Africa            | Senegal       |  117 |     9500000 |          12 |   2017 |
+| Asia              | Nepal         |   58 |    12900000 |           ? |   2017 |
+| Europe            | Netherlands   |  103 |           ? |          36 |   2011 |
+| Europe            | Norway        |  145 |         509 |           ? |   2013 |
+| Africa            | Rwanda        |   64 |     1500000 |           ? |   2015 |
+| Europe            | Slovenia      |  173 |        5000 |           1 |   2013 |
+| Asia              | Sri Lanka     |   75 |           ? |           ? |   2017 |
+| Europe            | Switzerland   |  118 |          38 |          10 |   2013 |
+| Africa            | Tanzania      |  146 |      415000 |           4 |   2017 |
+| America (North)   | United States |   47 |      475000 |           2 |   2011 |
+
+
+** Notes
+
+1. Sometimes, there may be little information about a dataset in a
+   given country, but then it has been studied further in some other
+   paper. We have recorded the page and edition of NetMob with the
+   most information.
+2. There might also be some points where I've missed a piece of
+   information, or even a better dataset from the same region. This
+   should not impact strongly (or logically negatively) on the fact
+   that there *exists* a dataset for that region.
+3. This is of course, and by necessity, quick and dirty. Anyone can
+   ask me for pull requests (), it'd be fantastic to have a rather
+   complete list of datasets that have been published. I might come
+   back to this running a more exhaustive search in the Netmob pages,
+   or I might not, but one thing that could be done is search for all
+   instances of the word "data" and see if there are other countries
+   that were not picked up by the countries' restrictive regular
+   expressions (or more likely cities as well).
+
+** Acknowledgements
+
+I'd like to thank the following people for their Twitter replies:
+Esteban Moro, Martha Gonzalez, Jari Saramaki, Nuria Oliver, Erki
+Saluveer, Yves-Alexander de Montjoye, Alex Rutherford.
+
+Hope it's useful.
