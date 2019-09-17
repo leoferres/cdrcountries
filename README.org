@@ -3,10 +3,12 @@
 ** Introduction
 
    People have been asking me why CDR investigations are only carried
-   out in "third world" countries like Chile ([[https://en.wikipedia.org/wiki/Economy_of_Chile][??!!]]).  So, after asking
-   [[https://twitter.com/leoferres/status/1173009065494110208][this twitter question]], I've taken the Netmob 2010, 2011, 2013, 2015
-   and 2017 booklets of abstracts that can be found [[http://netmob.org/][here]] and ran the
-   following code on them:
+   out in "third world" countries like Chile ([[https://en.wikipedia.org/wiki/Economy_of_Chile][??!!]]), there's even a
+   bit of a more formal (but limited) [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6072975/][study]] coming to the same
+   conclusions. After seeing much work in the area and knowning this
+   wasn't right, I asked [[https://twitter.com/leoferres/status/1173009065494110208][this twitter question]], and took the Netmob
+   2010, 2011, 2013, 2015 and 2017 booklets of abstracts that can be
+   found [[http://netmob.org/][here]] and ran the following code on them:
 
 ** Processing
    #+begin_src shell
@@ -75,6 +77,25 @@
 | Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |     5100000 |           3 | 2016 | @arutherfordium |
 | Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |   220000000 |           ? | 2010 | @arutherfordium |
 | Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |    39000000 |           7 | 2015 | @arutherfordium |
+
+** Conclusions
+
+These are some general conclusions I glean from the table above. These
+are, alas, not scientific, but anecdotal and would be happy to discuss
+them. In fact, someone should do a much more in-depth/serious study
+and let the community know. For now, I can just redirect some types of
+questions I get to this website.
+
+1. There's not really a preference for non-European/developing
+   countries, at least not in this "there is (at least one) dataset
+   for country X" review table,
+2. in this dataset, it seems that the work done prioritizes certain
+   countries (Haiti, as the foremost example) for humanitarian
+   reasons, rather than less-strict laws (people will do what they can
+   help, including giving out otherwise sensitive information).
+3. most of these studies analyze mobile data from /their own contries/
+   rather than taking data from other countries, except maybe the D4D
+   Challenge and Haiti datasets, that were designed for external help.
 
 ** Notes
 
