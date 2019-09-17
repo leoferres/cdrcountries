@@ -22,7 +22,7 @@
    I only worked with the oral presentation booklets (not posters or
    the D4D challenge). This produced
 
-   #+begin_src shell :results raw
+   #+begin_src shell :results raw :exports both
    wc -l bib/countriesfound.txt
    #+end_src
 
@@ -75,15 +75,19 @@
 
 ** Notes
 
-1. Sometimes, there may be little information about a dataset in a
+1. This is just *one conference* (albeit the most prominent one,
+   NetMob) and still, not all papers have been included, meaning I'm
+   completely sure that there area many, many other countries/regions
+   that have been studies using C/XDR datasets.
+2. Sometimes, there may be little information about a dataset in a
    given country, but then it has been studied further in some other
    paper. I have recorded the page and edition of NetMob with the
    most information.
-2. There might also be some points where I've missed a piece of
+3. There might also be some points where I've missed a piece of
    information, or even a better dataset from the same region. This
    should not impact strongly (or logically negatively) on the fact
    that there *exists* a dataset for that region.
-3. This is of course, and by necessity, quick and dirty. Anyone can
+4. This is of course, and by necessity, quick and dirty. Anyone can
    ask me for pull requests, it'd be fantastic to have a rather
    complete list of datasets that have been published. I might come
    back to this running a more exhaustive search in the Netmob pages,
