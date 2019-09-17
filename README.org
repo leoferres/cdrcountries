@@ -81,22 +81,25 @@
 
 ** Conclusions
 
-These are some general conclusions I glean from the table above. These
-are, alas, not scientific, but anecdotal and would be happy to discuss
-them. In fact, someone should do a much more in-depth/serious study
-and let the community know. For now, I can just redirect some types of
-questions I get to this website.
+These are some general conclusions I glean from the table above. They
+are, alas, not scientific at this point, but anecdotal and would be
+happy to discuss them. In fact, someone should do a much more
+in-depth/serious study and let the community know. For now, this
+should suffice for me so I can just redirect some types of questions I
+get to this website.
 
 1. There's not really a preference for non-European/developing
    countries, at least not in this "there is (at least one) dataset
    for country X" review table,
-2. in this dataset, it seems that the work done prioritizes certain
-   countries (Haiti, as the foremost example) for humanitarian
-   reasons, rather than less-strict laws (people will do what they can
-   help, including giving out otherwise sensitive information).
-3. most of these studies analyze mobile data from /their own contries/
-   rather than taking data from other countries, except maybe the D4D
-   Challenge and Haiti datasets, that were designed for external help.
+2. the above being said, it does seem that CDR work prioritizes
+   certain countries (Haiti, as the foremost example), but they also
+   seem to do so for humanitarian reasons, instead of less-strict
+   privacy laws (people will do whatever they can to help, including
+   giving out otherwise sensitive information... these are not leaks),
+3. most of these studies analyze mobile data /from their own contries/
+   rather than taking data from other countries, except maybe the D4R
+   Challenge and Haiti datasets, which were designed for external
+   help.
 
 ** Notes
 
