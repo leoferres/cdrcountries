@@ -1,5 +1,9 @@
 * Countries with (C/X)DR studies
 
+Leo Ferres (& others)
+UDD & Telefónica I+D
+[[lferres@udd.cl]]
+
 ** Introduction
 
    People have been asking me why CDR investigations are only carried
@@ -44,40 +48,40 @@
    exhaustive, but rather would like to show which countries have been
    studied using these methods *at least once*.
 
-| Continent         | Country       |   Page | Subscribers | Length (mo) | Year | Contributor     |
-|-------------------+---------------+--------+-------------+-------------+------+-----------------|
-| Europe            | Andorra       |    105 |     1264292 |           1 | 2017 | NetMob          |
-| America (South)   | Argentina     |    104 |   40000000? |           5 | 2013 | NetMob          |
-| Europe            | Austria       |     55 |           ? |           ? | 2013 | NetMob          |
-| Europe            | Belgium       |     55 |           ? |           6 | 2011 | NetMob          |
-| America (South)   | Brazil        |     46 |           ? |         0.6 | 2013 | NetMob          |
-| America (South)   | Chile         |    126 |      142988 |         0.5 | 2017 | NetMob          |
-| Asia (East)       | China         |     85 |           ? |           6 | 2017 | NetMob          |
-| Europe            | Estonia       |     87 |       48871 |         0.3 | 2015 | NetMob          |
-| Europe            | France        |     72 |           ? |           6 | 2013 | NetMob          |
-| Europe            | Portugal      |     72 |           ? |           6 | 2013 | NetMob          |
-| Europe            | Spain         |     72 |           ? |           6 | 2013 | NetMob          |
-| America (Central) | Haiti         |     74 |     2900000 |           2 | 2015 | NetMob          |
-| Asia (South)      | India         |    109 |     4000000 |           3 | 2015 | NetMob          |
-| Europe            | Ireland       |     57 |      500000 |           ? | 2011 | NetMob          |
-| Europe            | Italy         |     56 |           ? |          10 | 2010 | NetMob          |
-| America (Central) | Mexico        |     42 |    1000000s |           6 | 2015 | NetMob          |
-| Africa            | Namibia       |    117 |     4500000 |          50 | 2017 | NetMob          |
-| Africa            | Senegal       |    117 |     9500000 |          12 | 2017 | NetMob          |
-| Asia              | Nepal         |     58 |    12900000 |           ? | 2017 | NetMob          |
-| Europe            | Netherlands   |    103 |           ? |          36 | 2011 | NetMob          |
-| Europe            | Norway        |    145 |         509 |           ? | 2013 | NetMob          |
-| Africa            | Rwanda        |     64 |     1500000 |           ? | 2015 | NetMob          |
-| Europe            | Slovenia      |    173 |        5000 |           1 | 2013 | NetMob          |
-| Asia              | Sri Lanka     |     75 |           ? |           ? | 2017 | NetMob          |
-| Europe            | Switzerland   |    118 |          38 |          10 | 2013 | NetMob          |
-| Africa            | Tanzania      |    146 |      415000 |           4 | 2017 | NetMob          |
-| America (North)   | United States |     47 |      475000 |           2 | 2011 | NetMob          |
-|-------------------+---------------+--------+-------------+-------------+------+-----------------|
-| Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |     5100000 |           3 | 2016 | @arutherfordium |
-| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |   220000000 |           ? | 2010 | @arutherfordium |
-| Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |    39000000 |           7 | 2015 | @arutherfordium |
-| Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |     3500000 |           ? | 2017 | @arutherfordium |
+| Continent         | Country       |   Page |    Subscribers | Length (mo) | Year | Contributor        |
+|-------------------+---------------+--------+----------------+-------------+------+--------------------|
+| Europe            | Andorra       |    105 |        1264292 |           1 | 2017 | NetMob             |
+| America (South)   | Argentina     |    104 |      40000000? |           5 | 2013 | NetMob             |
+| Europe            | Austria       |     55 |              ? |           ? | 2013 | NetMob             |
+| Europe            | Belgium       |     55 |              ? |           6 | 2011 | NetMob             |
+| America (South)   | Brazil        |     46 |              ? |         0.6 | 2013 | NetMob             |
+| America (South)   | Chile         |    126 |         142988 |         0.5 | 2017 | NetMob             |
+| Asia (East)       | China         |     85 |              ? |           6 | 2017 | NetMob             |
+| Europe            | Estonia       |     87 |          48871 |         0.3 | 2015 | NetMob             |
+| Europe            | France        |     72 |              ? |           6 | 2013 | NetMob             |
+| Europe            | Portugal      |     72 |              ? |           6 | 2013 | NetMob             |
+| Europe            | Spain         |     72 |              ? |           6 | 2013 | NetMob             |
+| America (Central) | Haiti         |     74 |        2900000 |           2 | 2015 | NetMob             |
+| Asia (South)      | India         |    109 |        4000000 |           3 | 2015 | NetMob             |
+| Europe            | Ireland       |     57 |         500000 |           ? | 2011 | NetMob             |
+| Europe            | Italy         |     56 |              ? |          10 | 2010 | NetMob             |
+| America (Central) | Mexico        |     42 |       1000000s |           6 | 2015 | NetMob             |
+| Africa            | Namibia       |    117 |        4500000 |          50 | 2017 | NetMob             |
+| Africa            | Senegal       |    117 |        9500000 |          12 | 2017 | NetMob             |
+| Asia              | Nepal         |     58 |       12900000 |           ? | 2017 | NetMob             |
+| Europe            | Netherlands   |    103 |              ? |          36 | 2011 | NetMob             |
+| Europe            | Norway        |    145 |            509 |           ? | 2013 | NetMob             |
+| Africa            | Rwanda        | [[https://academic.oup.com/restud/article/86/3/1033/5061115?guestAccessKey=8628aed3-426d-4fc6-af39-bd5561c493a3][source]] | 400000/1500000 |          56 | 2015 | NetMob/@deaneckles |
+| Europe            | Slovenia      |    173 |           5000 |           1 | 2013 | NetMob             |
+| Asia              | Sri Lanka     |     75 |              ? |           ? | 2017 | NetMob             |
+| Europe            | Switzerland   |    118 |             38 |          10 | 2013 | NetMob             |
+| Africa            | Tanzania      |    146 |         415000 |           4 | 2017 | NetMob             |
+| America (North)   | United States |     47 |         475000 |           2 | 2011 | NetMob             |
+|-------------------+---------------+--------+----------------+-------------+------+--------------------|
+| Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |        5100000 |           3 | 2016 | @arutherfordium    |
+| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |      220000000 |           ? | 2010 | @arutherfordium    |
+| Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |       39000000 |           7 | 2015 | @arutherfordium    |
+| Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |        3500000 |           ? | 2017 | @arutherfordium    |
 
 ** Conclusions
 
