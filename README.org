@@ -82,6 +82,9 @@ UDD & Telefónica I+D
 | Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |      220000000 |           ? | 2010 | @arutherfordium    |
 | Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |       39000000 |           7 | 2015 | @arutherfordium    |
 | Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |        3500000 |           ? | 2017 | @arutherfordium    |
+| Europe            | Switzerland   | [[https://diegopuga.org/papers/calling.pdf][source]] |        2700000 |          12 | 2019 | @ProfDiegoPuga     |
+| America (South)   | Colombia      | [[https://www.unglobalpulse.org/news/using_mobile_traces_curve_Zika_spread_Colombia][source]] |        7000000 |           6 | 2018 | @danielapaolotti   |
+
 
 ** Conclusions
 
