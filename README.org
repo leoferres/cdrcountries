@@ -58,7 +58,7 @@ UDD & Telefónica I+D
 | America (South)   | Chile         |    126 |         142988 |         0.5 | 2017 | NetMob             |
 | Asia (East)       | China         |     85 |              ? |           6 | 2017 | NetMob             |
 | Europe            | Estonia       |     87 |          48871 |         0.3 | 2015 | NetMob             |
-| Europe            | France        |     72 |              ? |           6 | 2013 | NetMob             |
+| Europe            | France        | [[https://theses.ncl.ac.uk/jspui/handle/10443/4399][source]] |       48500000 |    5 (2007) | 2018 | @Metti_Hoof        |
 | Europe            | Portugal      |     72 |              ? |           6 | 2013 | NetMob             |
 | Europe            | Spain         |     72 |              ? |           6 | 2013 | NetMob             |
 | America (Central) | Haiti         |     74 |        2900000 |           2 | 2015 | NetMob             |
@@ -79,7 +79,7 @@ UDD & Telefónica I+D
 | America (North)   | United States |     47 |         475000 |           2 | 2011 | NetMob             |
 |-------------------+---------------+--------+----------------+-------------+------+--------------------|
 | Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |        5100000 |           3 | 2016 | @arutherfordium    |
-| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |      220000000 |           ? | 2010 | @arutherfordium    |
+| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |       65000000 |           1 | 2010 | @arutherfordium    |
 | Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |       39000000 |           7 | 2015 | @arutherfordium    |
 | Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |        3500000 |           ? | 2017 | @arutherfordium    |
 | Europe            | Switzerland   | [[https://diegopuga.org/papers/calling.pdf][source]] |        2700000 |          12 | 2019 | @ProfDiegoPuga     |
