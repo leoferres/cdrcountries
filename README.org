@@ -2,7 +2,7 @@
 
 Leo Ferres (& others)
 UDD & Telefónica I+D
-[[lferres@udd.cl]]
+lferres@udd.cl
 
 ** Introduction
 
@@ -15,7 +15,8 @@ UDD & Telefónica I+D
    found [[http://netmob.org/][here]] and ran the following code on them:
 
 ** Processing
-   #+begin_src shell
+
+   #+begin_src shell :tangle cfndpdf.sh
    #!/bin/bash
    echoerr() { echo "$@" 1>&2; }
    while read line; do
@@ -53,12 +54,12 @@ UDD & Telefónica I+D
 | Europe            | Andorra       |    105 |        1264292 |           1 | 2017 | NetMob             |
 | America (South)   | Argentina     |    104 |      40000000? |           5 | 2013 | NetMob             |
 | Europe            | Austria       |     55 |              ? |           ? | 2013 | NetMob             |
-| Europe            | Belgium       |     55 |              ? |           6 | 2011 | NetMob             |
+| Europe            | Belgium       | [[https://arxiv.org/pdf/0905.0692.pdf][source]] |        2500000 |           6 | 2009 | =@leoferres=       |
 | America (South)   | Brazil        |     46 |              ? |         0.6 | 2013 | NetMob             |
 | America (South)   | Chile         |    126 |         142988 |         0.5 | 2017 | NetMob             |
 | Asia (East)       | China         |     85 |              ? |           6 | 2017 | NetMob             |
 | Europe            | Estonia       |     87 |          48871 |         0.3 | 2015 | NetMob             |
-| Europe            | France        | [[https://theses.ncl.ac.uk/jspui/handle/10443/4399][source]] |       48500000 |    5 (2007) | 2018 | @Metti_Hoof        |
+| Europe            | France        | [[https://theses.ncl.ac.uk/jspui/handle/10443/4399][source]] |       48500000 |    5 (2007) | 2018 | =@Metti_Hoof=      |
 | Europe            | Portugal      |     72 |              ? |           6 | 2013 | NetMob             |
 | Europe            | Spain         |     72 |              ? |           6 | 2013 | NetMob             |
 | America (Central) | Haiti         |     74 |        2900000 |           2 | 2015 | NetMob             |
@@ -71,19 +72,20 @@ UDD & Telefónica I+D
 | Asia              | Nepal         |     58 |       12900000 |           ? | 2017 | NetMob             |
 | Europe            | Netherlands   |    103 |              ? |          36 | 2011 | NetMob             |
 | Europe            | Norway        |    145 |            509 |           ? | 2013 | NetMob             |
-| Africa            | Rwanda        | [[https://academic.oup.com/restud/article/86/3/1033/5061115?guestAccessKey=8628aed3-426d-4fc6-af39-bd5561c493a3][source]] | 400000/1500000 |          56 | 2015 | NetMob/@deaneckles |
+| Africa            | Rwanda        | [[https://academic.oup.com/restud/article/86/3/1033/5061115?guestAccessKey=8628aed3-426d-4fc6-af39-bd5561c493a3][source]] | 400000/1500000 |          56 | 2015 | =@deaneckles=      |
 | Europe            | Slovenia      |    173 |           5000 |           1 | 2013 | NetMob             |
 | Asia              | Sri Lanka     |     75 |              ? |           ? | 2017 | NetMob             |
 | Europe            | Switzerland   |    118 |             38 |          10 | 2013 | NetMob             |
 | Africa            | Tanzania      |    146 |         415000 |           4 | 2017 | NetMob             |
 | America (North)   | United States |     47 |         475000 |           2 | 2011 | NetMob             |
 |-------------------+---------------+--------+----------------+-------------+------+--------------------|
-| Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |        5100000 |           3 | 2016 | @arutherfordium    |
-| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |       65000000 |           1 | 2010 | @arutherfordium    |
-| Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |       39000000 |           7 | 2015 | @arutherfordium    |
-| Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |        3500000 |           ? | 2017 | @arutherfordium    |
-| Europe            | Switzerland   | [[https://diegopuga.org/papers/calling.pdf][source]] |        2700000 |          12 | 2019 | @ProfDiegoPuga     |
-| America (South)   | Colombia      | [[https://www.unglobalpulse.org/news/using_mobile_traces_curve_Zika_spread_Colombia][source]] |        7000000 |           6 | 2018 | @danielapaolotti   |
+| Asia              | Bangladesh    | [[https://link.springer.com/article/10.1007/s10584-016-1753-7][source]] |        5100000 |           3 | 2016 | =@arutherfordium=  |
+| Europe?           | England       | [[http://www.uvm.edu/pdodds/files/papers/others/everything/beep2010a.pdf][source]] |       65000000 |           1 | 2010 | =@arutherfordium=  |
+| Asia              | Pakistan      | [[https://www.pnas.org/content/112/38/11887.long][source]] |       39000000 |           7 | 2015 | =@arutherfordium=  |
+| Asia              | Turkey        | [[https://d4r.turktelekom.com.tr/][source]] |        3500000 |           ? | 2017 | =@arutherfordium=  |
+| Europe            | Switzerland   | [[https://diegopuga.org/papers/calling.pdf][source]] |        2700000 |          12 | 2019 | =@ProfDiegoPuga=   |
+| America (South)   | Colombia      | [[https://www.unglobalpulse.org/news/using_mobile_traces_curve_Zika_spread_Colombia][source]] |        7000000 |           6 | 2018 | =@danielapaolotti= |
+| Africa            | Cote D'Ivoire | [[https://link.springer.com/article/10.1140/epjds/s13688-015-0053-1][source]] |        5000000 |           5 | 2012 | =@lbravoc=         |
 
 
 ** Conclusions
